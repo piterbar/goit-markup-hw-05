@@ -85,12 +85,12 @@ body {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-button {
@@ -103,6 +103,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .kontakty-button {
@@ -115,6 +116,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contact-list {
@@ -199,6 +201,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-header {
@@ -208,6 +211,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 h3 {
@@ -476,12 +480,14 @@ p {
 }
 
 .social-link {
+  display: block;
   width: 44px;
   height: 44px;
-  display: block;
   border-radius: 50%;
   color: #afb1b8;
   background-color: #ffffff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -525,6 +531,7 @@ p {
   color: #afb1b8;
   background-color: #fff;
   padding: 16px 32px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-link:hover,
@@ -579,6 +586,7 @@ p {
   color: #ffffff;
   background-color: #ffffff10;
   margin-right: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link:hover,
@@ -590,6 +598,7 @@ p {
 .footer-icon {
   margin: 12px 0px 0px 12px;
   fill: currentColor;
+
 }
 
 .modal {
