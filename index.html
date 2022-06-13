@@ -16,7 +16,7 @@
   <header class="header">
     <div class="container nav-flex">
       <nav class="header-nav"></nav>
-      <a href="index.html" class="link logo-blue">Web<span class="logo-black">Studio</span></a> 
+      <a href="index.html" class="link logo-blue">Web<span class="logo-black">Studio</span></a>
       <ul class="header-nav-list list">
         <li class="header-nav-item">
           <a href="index.html" class="link agencja-button">Agencja</a>
@@ -118,12 +118,15 @@
         <ul class="work-list list">
           <li class="work-item">
             <img src="images/ipad_chart_op.jpg" alt="Pisanie kodu na urządzeniach mobilnych" width="370" height="294" />
+            <p class="work-text">APLIKACJE KOMPUTEROWE</p>
           </li>
           <li class="work-item">
             <img src="images/iphone_op.jpg" alt="Układanie layout na urządzenia mobilne" width="370" height="294" />
+            <p class="work-text">APLIKACJE MOBILNE</p>
           </li>
           <li class="work-item">
             <img src="images/ipad_rgb_op.jpg" alt="Wybór kolorów z palety" width="370" height="294" />
+            <p class="work-text">ROZWIĄZANIA GRAFICZNE</p>
           </li>
         </ul>
       </div>
@@ -354,19 +357,19 @@
     <div class="container">
       <div class="footer-con">
         <div>
-        <a href="index.html" class="link logo-blue">Web<span class="logo-white">Studio</span></a>
-        <address class="">
-          <ul class="list">
-            <li class="address-footer">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a href="mailto:info@example.com" class="link link-footer">info@example.com</a>
-            </li>
-            <li>
-              <a href="tel:+48111111111" class="link footer-tel">+48 111 111 111</a>
-            </li>
-          </ul>
-        </address>
-      </div>
+          <a href="index.html" class="link logo-blue">Web<span class="logo-white">Studio</span></a>
+          <address class="">
+            <ul class="list">
+              <li class="address-footer">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a href="mailto:info@example.com" class="link link-footer">info@example.com</a>
+              </li>
+              <li>
+                <a href="tel:+48111111111" class="link footer-tel">+48 111 111 111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
         <div class="footer-social-flex">
           <p class="footer-p-text">DOŁĄCZ DO NAS</p>
           <ul class="footer-list list">
@@ -403,7 +406,16 @@
       </div>
     </div>
   </footer>
-  <script src="js/modal.js"></script>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal">
+        <button type="button" class="close-btn" data-modal-close>
+          <svg class= width="11" height="11">
+            <use href="./images/icons.svg#icon-vector"></use>
+          </svg>
+        </button>
+    </div>
+  </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
