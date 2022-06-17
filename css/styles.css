@@ -689,3 +689,9 @@ p {
 .portfolio-item:hover .portfolio-overlay {
   transform: translateY(0);
 }
+.active::after {
+  content: " ";
+  display: block;
+  border: 1px solid #2196f3;
+  
+}
