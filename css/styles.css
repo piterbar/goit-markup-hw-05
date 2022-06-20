@@ -690,8 +690,11 @@ p {
   transform: translateY(0);
 }
 .active::after {
+  position: relative;
   content: " ";
   display: block;
-  border: 1px solid #2196f3;
-  
+  width: 100%;
+  border: 3px solid #2196f3;
+  background-color: #2196f3;
+  bottom: -25px;
 }
